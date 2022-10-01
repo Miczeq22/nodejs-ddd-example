@@ -6,12 +6,12 @@ This project shows a simple example how to write Tactical Domain Driven Design i
 
 ### Domain
 
-Another TODO list? Yes, the domain must be quite simple to understand the concepts, but to not finish on simple CRUD we will ad few extra business rules:
+Another TODO list? Yes, the domain must be quite simple to understand the concepts, but to not finish on simple CRUD we will add few extra business rules:
 - Only registered users can add TODO.
 - We accept only emails from gmail and outlook domains.
 - User can have maximum of 10 active todos
 - To complete todo user need to describe how the todo was completed
-- User can share todos by providing user nickname, shared todo can be completed by multiple users
+- User can share todos by providing user email, shared todo can be completed by multiple users
 
 ### Stack
 We are not going to use any framework simple `express.js` with `TypeScript` will do the work.
