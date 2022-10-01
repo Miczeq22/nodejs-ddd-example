@@ -6,7 +6,7 @@ This project shows a simple example how to write Tactical Domain Driven Design i
 
 ### Domain
 
-Another TODO list? Yes, the domain must be quite simple to undestand the concepts, but to not finish on simple CRUD we will ad few extra business rules:
+Another TODO list? Yes, the domain must be quite simple to understand the concepts, but to not finish on simple CRUD we will ad few extra business rules:
 - Only registered users can add TODO.
 - We accept only emails from gmail and outlook domains.
 - User can have maximum of 10 active todos
