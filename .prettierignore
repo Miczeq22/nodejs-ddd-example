@@ -1,0 +1,9 @@
+*.sql
+*.yml
+*.yaml
+.json
+
+node_modules
+*.html
+coverage
+plop-templates

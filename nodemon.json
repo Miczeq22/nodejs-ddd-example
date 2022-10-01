@@ -1,0 +1,15 @@
+{
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js,json,ts",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "node_modules",
+    "src/**/*.spec.ts"
+  ],
+  "restartable": "rs",
+  "watch": ["src/**/*.ts", "../modules/**/*.ts"],
+  "exec": "ts-node -r tsconfig-paths/register ./src/index.ts"
+}
