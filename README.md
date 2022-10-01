@@ -1,5 +1,7 @@
 # Node.js DDD Example
 
+[![CI Pipeline](https://github.com/Miczeq22/nodejs-ddd-example/actions/workflows/ci-pipeline.yaml/badge.svg)](https://github.com/Miczeq22/nodejs-ddd-example/actions/workflows/ci-pipeline.yaml)
+
 This project shows a simple example how to write Tactical Domain Driven Design in Node.js
 
 ### Domain
