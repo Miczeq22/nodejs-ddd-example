@@ -49,7 +49,7 @@ jobs:
       - name: Install npm
         if: steps.npm-cache.outputs.cache-hit != 'true'
         run: npm install
-      - name: Run Build
+      - name: Run Tests
         run: npm run build
 
   tests:
